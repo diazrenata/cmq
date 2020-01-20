@@ -1,0 +1,13 @@
+2020-01-20 08:57:22.499404 | Master: tcp://c29a-s1:7726
+2020-01-20 08:57:22.519967 | WORKER_UP to: tcp://c29a-s1:7726
+2020-01-20 08:57:36.252949 | > DO_SETUP (0.554s wait)
+2020-01-20 08:57:36.253380 | token from msg: set_common_data_token
+2020-01-20 08:58:32.612440 | > DO_CALL (0.001s wait)
+.* Option 'clustermq.scheduler' not set, defaulting to ‘SLURM’
+--- see: https://mschubert.github.io/clustermq/articles/userguide.html#configuration
+2020-01-20 08:58:33.151746 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
+2020-01-20 09:04:16.943290 | > DO_CALL (0.000s wait)
+.2020-01-20 09:04:16.945834 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
+Error in clustermq:::worker("tcp://c29a-s1:7726") : 
+  Timeout reached, terminating
+Execution halted
