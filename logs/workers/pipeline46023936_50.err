@@ -1,60 +1,0 @@
-2020-01-20 08:52:31.853854 | Master: tcp://login2:7824
-2020-01-20 08:52:31.890333 | WORKER_UP to: tcp://login2:7824
-2020-01-20 08:52:32.640015 | > DO_SETUP (0.737s wait)
-2020-01-20 08:52:32.640302 | token from msg: set_common_data_token
-2020-01-20 08:52:32.728906 | > DO_CALL (0.000s wait)
-⠇* Option 'clustermq.scheduler' not set, defaulting to ‘SLURM’
---- see: https://mschubert.github.io/clustermq/articles/userguide.html#configuration
-2020-01-20 08:52:33.176621 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:52:33.488427 | > DO_CALL (0.000s wait)
-⠏2020-01-20 08:52:33.489670 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:52:37.119865 | > DO_CALL (0.000s wait)
-⠋2020-01-20 08:52:37.120878 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:52:41.638814 | > DO_CALL (0.000s wait)
-⠙2020-01-20 08:52:41.640103 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:52:46.111522 | > DO_CALL (0.000s wait)
-⠹2020-01-20 08:52:46.112858 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:52:50.683220 | > DO_CALL (0.000s wait)
-⠸2020-01-20 08:52:50.684490 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:52:55.286016 | > DO_CALL (0.000s wait)
-⠼2020-01-20 08:52:55.287305 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:52:59.934529 | > DO_CALL (0.000s wait)
-⠴2020-01-20 08:52:59.935990 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:05.125145 | > DO_CALL (0.000s wait)
-⠦2020-01-20 08:53:05.126491 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:09.956555 | > DO_CALL (0.000s wait)
-⠧2020-01-20 08:53:09.958023 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:14.631537 | > DO_CALL (0.000s wait)
-⠇2020-01-20 08:53:14.632515 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:19.106904 | > DO_CALL (0.000s wait)
-⠏2020-01-20 08:53:19.107896 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:23.603068 | > DO_CALL (0.000s wait)
-⠋2020-01-20 08:53:23.604053 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:28.063548 | > DO_CALL (0.000s wait)
-⠙2020-01-20 08:53:28.064529 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:32.674549 | > DO_CALL (0.000s wait)
-⠹2020-01-20 08:53:32.677144 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:37.427698 | > DO_CALL (0.000s wait)
-⠸2020-01-20 08:53:37.428679 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:41.945495 | > DO_CALL (0.000s wait)
-⠼2020-01-20 08:53:41.946492 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:46.415211 | > DO_CALL (0.000s wait)
-⠴2020-01-20 08:53:46.416527 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:50.902998 | > DO_CALL (0.000s wait)
-⠦2020-01-20 08:53:50.904324 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:55.371780 | > DO_CALL (0.000s wait)
-⠧2020-01-20 08:53:55.373068 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:59.889123 | > DO_CALL (0.000s wait)
-⠇2020-01-20 08:53:59.890426 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:54:04.828149 | > DO_CALL (0.000s wait)
-⠏2020-01-20 08:54:04.829246 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:54:09.579621 | > DO_CALL (0.000s wait)
-⠋2020-01-20 08:54:09.580694 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:54:14.052948 | > DO_CALL (0.000s wait)
-⠙2020-01-20 08:54:14.053964 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:54:18.491691 | > WORKER_WAIT (0.000s wait)
-2020-01-20 08:54:18.491923 | waiting 2.10s
-2020-01-20 08:54:34.750553 | > WORKER_STOP (0.000s wait)
-2020-01-20 08:54:34.752774 | shutting down worker
-2020-01-20 08:54:34.801527 | 
-Total: 24 in 0.53s [user], 0.10s [system], 122.86s [elapsed]

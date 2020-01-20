@@ -1,58 +1,0 @@
-2020-01-20 08:52:31.784543 | Master: tcp://login2:7824
-2020-01-20 08:52:31.806948 | WORKER_UP to: tcp://login2:7824
-2020-01-20 08:52:32.769571 | > DO_SETUP (0.952s wait)
-2020-01-20 08:52:32.770673 | token from msg: set_common_data_token
-2020-01-20 08:52:33.839565 | > DO_CALL (0.000s wait)
-⠇* Option 'clustermq.scheduler' not set, defaulting to ‘SLURM’
---- see: https://mschubert.github.io/clustermq/articles/userguide.html#configuration
-2020-01-20 08:52:34.522876 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:52:37.661350 | > DO_CALL (0.001s wait)
-⠏2020-01-20 08:52:37.664118 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:52:42.180221 | > DO_CALL (0.000s wait)
-⠋2020-01-20 08:52:42.182081 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:52:46.639497 | > DO_CALL (0.001s wait)
-⠙2020-01-20 08:52:46.643629 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:52:51.228448 | > DO_CALL (0.001s wait)
-⠹2020-01-20 08:52:51.231641 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:52:55.843056 | > DO_CALL (0.000s wait)
-⠸2020-01-20 08:52:55.844724 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:00.499407 | > DO_CALL (0.001s wait)
-⠼2020-01-20 08:53:00.503113 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:05.752349 | > DO_CALL (0.000s wait)
-⠴2020-01-20 08:53:05.755912 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:10.526492 | > DO_CALL (0.001s wait)
-⠦2020-01-20 08:53:10.528941 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:15.162182 | > DO_CALL (0.000s wait)
-⠧2020-01-20 08:53:15.163805 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:19.671496 | > DO_CALL (0.000s wait)
-⠇2020-01-20 08:53:19.673448 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:24.146231 | > DO_CALL (0.000s wait)
-⠏2020-01-20 08:53:24.147873 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:28.613559 | > DO_CALL (0.000s wait)
-⠋2020-01-20 08:53:28.615211 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:33.306917 | > DO_CALL (0.000s wait)
-⠙2020-01-20 08:53:33.308859 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:37.975837 | > DO_CALL (0.000s wait)
-⠹2020-01-20 08:53:37.977497 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:42.488059 | > DO_CALL (0.000s wait)
-⠸2020-01-20 08:53:42.490071 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:46.937964 | > DO_CALL (0.000s wait)
-⠼2020-01-20 08:53:46.941295 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:51.438595 | > DO_CALL (0.001s wait)
-⠴2020-01-20 08:53:51.442141 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:53:55.910729 | > DO_CALL (0.000s wait)
-⠦2020-01-20 08:53:55.913437 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:54:00.449823 | > DO_CALL (0.000s wait)
-⠧2020-01-20 08:54:00.451450 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:54:05.440629 | > DO_CALL (0.001s wait)
-⠇2020-01-20 08:54:05.444747 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:54:10.109663 | > DO_CALL (0.000s wait)
-⠏2020-01-20 08:54:10.111676 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:54:14.590885 | > DO_CALL (0.000s wait)
-⠋2020-01-20 08:54:14.592471 | eval'd: drake::cmq_buildtargetmetadepsspecht_is_subtargetconfig
-2020-01-20 08:54:18.964453 | > WORKER_WAIT (0.000s wait)
-2020-01-20 08:54:18.965155 | waiting 2.10s
-2020-01-20 08:54:34.751965 | > WORKER_STOP (0.000s wait)
-2020-01-20 08:54:34.755111 | shutting down worker
-2020-01-20 08:54:34.845891 | 
-Total: 23 in 1.06s [user], 0.14s [system], 122.95s [elapsed]

@@ -4,3 +4,5 @@
 .Ruserdata
 analysis/drake/*
 .drake/*
+.DS_Store
+logs/.DS_Store
