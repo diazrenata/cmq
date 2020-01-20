@@ -26,7 +26,7 @@ if(grepl("ufhpc", nodename)) {
   library(clustermq)
   options(clustermq.scheduler = "slurm", clustermq.template = "slurm_clustermq.tmpl")
   ## Run the pipeline parallelized for HiPerGator
-  make(all,
+  make(a_plan,
        force = TRUE,
        cache = cache,
        cache_log_file = here::here("analysis", "drake", "cache_log.txt"),
@@ -38,7 +38,7 @@ if(grepl("ufhpc", nodename)) {
   library(clustermq)
   options(clustermq.scheduler = "multicore")
   # Run the pipeline on multiple local cores
-  system.time(make(all, cache = cache, cache_log_file = here::here("analysis", "drake", "cache_log.txt"), parallelism = "clustermq", jobs = 2))
+  system.time(make(a_plan, cache = cache, cache_log_file = here::here("analysis", "drake", "cache_log.txt"), parallelism = "clustermq", jobs = 2))
 }
 
 DBI::dbDisconnect(db)
